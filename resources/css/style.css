@@ -26,7 +26,6 @@ header {
   justify-content: space-between;
   background-color: cadetblue;
   padding: 1rem 2rem;
-  margin-top: 1rem;
 }
 
 .logo {
@@ -52,6 +51,7 @@ nav span {
   background-position: center;
   background-size: cover;
   height: 30rem;
+  padding-top: 1rem;
 }
 
 .moto {
@@ -64,7 +64,7 @@ nav span {
   width: 20rem;
 }
 
-.moto h2 {
+.moto h1 {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
@@ -76,6 +76,7 @@ nav span {
   display: flex;
   justify-content: space-between;
   margin: 3rem 0 3rem 0;
+  padding: 0 6rem;
 }
 
 .offer-exams,
@@ -111,17 +112,31 @@ nav span {
 
 .details {
   width: 35%;
+  padding: 5%;
 }
 
-.details h3 {
+.details h2 {
   display: block;
   background-color: cadetblue;
   padding: 0.5rem 1.25rem;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
   width: 10rem;
   margin-bottom: 1rem;
 }
 
 .details p {
   color: #000000;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 4rem;
+  color: #000000;
+  margin-top: 5rem;
 }
