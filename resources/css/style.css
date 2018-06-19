@@ -54,14 +54,22 @@ nav span {
   padding-top: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
 .moto {
-  position: relative;
-  top: 10rem;
+  display: inline-block;
   padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
   background-color: #ffffff;
   color: #000000;
   text-transform: uppercase;
-  width: 20rem;
+}
+
+.main-banner .flex {
+  justify-content: flex-end;
 }
 
 .moto h1 {
